@@ -3,17 +3,17 @@
     
     display: flex;
     align-items: center;
-    justify-content: center;
-    border: 1px solid #ff0000; 
+    justify-content: center; 
 }
 
 .square {
     height: 9.38rem;
     width: 9.38rem;
     border: 1px solid #000000;
-    background-color: #7fffd4;
+    background-color: #1aeaa5;
 }
 
 .enemy {
-    background-color: #ff0000;
+    background-image: url(../images/ralph.png);
+    background-size: cover;
 }
