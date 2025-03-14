@@ -1,3 +1,11 @@
+.menu-time,
+.menu-score {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+
 .menu-time h2:nth-child(1),
 .menu-score h2:nth-child(1) {
     color: #ff0000;

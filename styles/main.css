@@ -2,7 +2,8 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image: url(../src/images/wall.png);
+    background: url(../src/images/bg-tela-do-jogo.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .menu {
