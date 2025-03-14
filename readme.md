@@ -2,11 +2,11 @@
 
 ## **🕹️Bem-vindo ao Mundo Pixelado de Detona Ralph!**
 
-Este projeto é uma reconstrução épica do clássico jogo Detona Ralph, originalmente desenvolvido em HTML, CSS e JavaScript durante o curso Ri Happy - Front-end do Zero da DIO. Agora, estamos levando a experiência a um novo nível com o poder do React!
+Este projeto é uma reconstrução épica do clássico jogo Detona Ralph, originalmente desenvolvido em HTML, CSS e JavaScript durante o curso Ri Happy - Front-end do Zero da <a href="https://web.dio.me/">DIO</a>. Agora, estou elevando a experiência a um novo nível com o poder do React!
 
 
 ## ️⚛️**Por Que Reconstruir em React?** ️
-Como um aspirante a desenvolvedor, estou em uma jornada constante de aprendizado e aprimoramento. E que melhor maneira de consolidar meus conhecimentos em React do que reconstruindo um projeto que eu amo?
+Como desenvolvedor, estou em uma jornada constante de aprendizado e aprimoramento. E que melhor maneira de consolidar meus conhecimentos em React do que reconstruindo um projeto como esse?
 
 ## 🎁**O Que Esperar?**
 - **Uma tela inicial incrível** com um input para você digitar seu nome e um botão "Start" para começar a diversão! ️
@@ -25,7 +25,7 @@ Como um aspirante a desenvolvedor, estou em uma jornada constante de aprendizado
 
 [![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#) - A base de toda a estrutura do nosso jogo!
 
-[![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)](#) - O toque mágico que dá vida aos nossos gráficos pixelados! ✨
+[![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)](#) - O toque mágico que dá vida aos nossos gráficos pixelados!
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#) - A linguagem que faz tudo acontecer, desde a lógica do jogo até as animações!
 
