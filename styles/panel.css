@@ -1,13 +1,9 @@
 .panel {
     margin-top: 1rem;
-    
-    
     display: flex;
     align-items: center;
     justify-content: center; 
     gap: 5px;
-
-    outline: 1px solid yellow;
 
 }
 
@@ -16,16 +12,13 @@
     width: 100px;
     border-radius: 5px;
     border: 1px solid #000000;
-    background: url(../src/images/bg-tela-dos-quadrados.png) no-repeat center;
-    background-size: cover;
-
-
+    background-color: #a52a2a6e;
     margin: 5px 0;
 
 }
 
 .enemy {
-    background-image: url(../src/images/detona-ralph-quadrado.gif);
+    background-image: url(../src/images/ralph.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
