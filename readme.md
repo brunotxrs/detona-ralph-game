@@ -1,8 +1,9 @@
-<h1><strong>Detona Ralph React:<br> ⚠️Reconstrução Completa com React!<br> em Andamento!⚠️</strong></h1>
+<h1><strong>Detona Ralph - Reconstrução em React<br> ⚠️(Em Desenvolvimento)⚠️</strong></h1>
 
-## **🕹️Bem-vindo ao Mundo Pixelado de Detona Ralph!**
+Este projeto representa uma reconstrução completa do zero do jogo Detona Ralph, utilizando a biblioteca **React**. A versão anterior, desenvolvida em **HTML**, **CSS** e **JavaScript** puro, foi arquivada na branch ``first-version``. Este novo projeto não reutilizará nenhum código da versão anterior e introduzirá novas funcionalidades e melhorias.
 
-Este projeto é uma **reconstrução completa** do clássico jogo Detona Ralph. A versão original, desenvolvida em HTML, CSS e JavaScript, foi concluída durante o curso Ri Happy - Front-end do Zero da <a href="https://web.dio.me/">DIO</a>. Agora, estou levando a experiência a um novo nível, reconstruindo o jogo do zero com o poder do **React**!
+## **📍Descrição**
+O objetivo deste projeto é recriar o jogo Detona Ralph com uma arquitetura moderna e escalável, utilizando React. O jogo manterá a mecânica principal de acertar o personagem Ralph, mas será expandido com novas funcionalidades, melhorias de desempenho e uma interface de usuário mais interativa.
 
 
 ## ️⚛️**Por Que Reconstruir em React?** ️
@@ -12,7 +13,7 @@ Como desenvolvedor, estou em uma jornada contínua de aprendizado e aprimorament
 * Explorar novas funcionalidades e otimizações.
 * Criar uma aplicação mais modular e escalável.
 
-## 🎁**O Que Esperar (em Desenvolvimento)?**
+## 🎁**O Que Esperar? (em Desenvolvimento)**
 - **Uma tela inicial incrível** com um input para você digitar seu nome e um botão "Press Start" para começar a diversão! **(Em Desenvolvimento)** ️
 
 - **Um jogo Detona Ralph turbinado** com gráficos pixelados e animações que vão te transportar direto para os arcades! **(Em Desenvolvimento)**
@@ -24,14 +25,11 @@ Como desenvolvedor, estou em uma jornada contínua de aprendizado e aprimorament
 - **Uma experiência totalmente responsiva** que se adapta a qualquer tela, seja no seu celular ou no seu computador!  **(Em Desenvolvimento)**
 
 ## 🛠️Tecnologias Usadas
-
-[![React](https://img.shields.io/badge/React-%2320232a.svg?logo=react&logoColor=%2361DAFB)](#) - A biblioteca JavaScript mais amada pelos desenvolvedores para criar interfaces de usuário incríveis! **(Em Desenvolvimento)**
-
-Observação: O
-[![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#),
-[![CSS](https://img.shields.io/badge/CSS-1572B6?logo=css3&logoColor=fff)](#) e
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#) 
-da versão original foram usados apenas como referência e não serão reaproveitados nesta reconstrução.
+<div>
+<a href="https://reactjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="50" /></a> 
+<a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="50" /></a>
+<a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" /></a>
+</div>
 
 ## 🫱🏻‍🫲🏻Contribuição
 Sinta-se à vontade para contribuir com este projeto! Se você tiver alguma ideia, sugestão ou encontrar algum bug, abra uma issue ou envie um pull request. Juntos, podemos tornar este jogo ainda mais épico!
@@ -50,13 +48,3 @@ Prepare-se para uma aventura pixelada inesquecível! Acompanhe o progresso deste
 - [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/brunotxrs)
 
 -----------------------------------
-<!-- 
-## Awesome JSGame Detona Ralph
-
-<p align="center">
-  <img src="./src/images/redmi img.png" alt="JSGame Detona Ralph">
-</p>
-
-### Créditos
-
-Este jogo foi desenvolvido como parte de um projeto educacional da Digital Innovation One. -->
