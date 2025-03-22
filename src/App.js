@@ -11,7 +11,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomeScreen />} />
-        <Route path="/next-page" element={<GameScreen />} />
+        <Route path="/gamescreen" element={<GameScreen />} />
       </Routes>
     </BrowserRouter>
     </NameProvider>
