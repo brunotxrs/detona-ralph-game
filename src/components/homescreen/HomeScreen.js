@@ -17,19 +17,30 @@ function HomeScreen() {
   
     const handleStartClick = () => {
       if (name.trim() !== '') {
-        setPlayerName(name);
-        navigate('../../components/gamescreen/GameScreen');
+        if(name.length >= 3 && name.length <= 10 ){
+          setPlayerName(name);
+          navigate('/gamescreen');
+          console.log('foi')
+        }else if (name.length < 3) {
+          
+          setShowAlert('Nome deve ter no mínimo 3 caracteres.');
+      setTimeout(() => setShowAlert(''), 3000);
+          
+        }else {
+          setShowAlert('Nome deve ter no máximo 10 caracteres.');
+          setTimeout(() => setShowAlert(''), 3000); 
+        }
+
       } else {
-        
-        setShowAlert(true);
-        setTimeout(() => setShowAlert(false), 3000);
+        setShowAlert('Por favor, insira um nome.');
+        setTimeout(() => setShowAlert(''), 3000);
       }
     };
   
     return (
       <div className="homescreen">
         <div className='alert' style={{display: showAlert ? 'block' : 'none'}}>
-            <p>Por favor, insira um nome</p>
+            <p>{showAlert}</p>
         </div>
         <input
           type="text"
