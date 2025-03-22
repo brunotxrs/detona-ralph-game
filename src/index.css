@@ -1,13 +1,26 @@
+@font-face {
+  font-family: "Detona-Ralph";
+  src: url('../src/assets/font/joystix\ monospace.otf') format('opentype');
+  font-weight: normal;
+
+}
+
+:root {
+  --font-detona-ralph: "Detona-Ralph" ;
+}
+
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: var(--font-detona-ralph),
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: #161523;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: var(--font-detona-ralph), source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
