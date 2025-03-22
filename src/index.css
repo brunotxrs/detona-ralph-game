@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "Detona-Ralph";
   src: url('../src/assets/font/joystix\ monospace.otf') format('opentype');
@@ -8,6 +14,7 @@
 :root {
   --font-detona-ralph: "Detona-Ralph" ;
 }
+
 
 
 body {
