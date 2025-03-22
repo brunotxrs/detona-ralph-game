@@ -23,11 +23,12 @@
     top: 120px;
     right: 30px;
     box-shadow: 0 0 5px #000;
+    padding: 10px 5px;
 
     p {
         font-family: var(--font-detona-ralph);
         font-size: 0.8rem;
-        line-height: 17px;
+        line-height: 19px;
         user-select: none;
     }
 }
