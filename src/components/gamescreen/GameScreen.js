@@ -8,8 +8,8 @@ function GameScreen() {
   const { playerName } = useContext(NameContext);
 
   return (
-    <div>
-      <h1>Welcome, {playerName}!</h1>
+    <div className='gamescreen'>
+      <h1 className='title'>Welcome, {playerName}!</h1>
     </div>
   );
 }

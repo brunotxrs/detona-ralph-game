@@ -1,0 +1,13 @@
+.gamescreen{
+    height: 100vh;
+    background: url(../../assets/imgs/mobile/bg-tela-do-jogo-mobile.png) no-repeat center;
+    background-size: cover;
+}
+
+.title {
+    color: black;
+    font-size: 1rem;
+    background-color: aliceblue;
+    text-align: center;
+}
+
