@@ -1,0 +1,91 @@
+@import url(../../index.css);
+
+.homescreen {
+    height: 100vh;
+    background: url(../../assets/imgs/mobile/bg-tela-inicial-mobile.png) no-repeat center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    position: relative;
+
+}
+
+.alert {
+    width: 120px;
+    height: 100px;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 10px;
+    position: absolute;
+    top: 120px;
+    right: 30px;
+    box-shadow: 0 0 5px #000;
+
+    p {
+        font-family: var(--font-detona-ralph);
+        font-size: 0.8rem;
+        line-height: 20px;
+        user-select: none;
+    }
+}
+
+.alert::after {
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 80px;
+    left: -10px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid #fff;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    
+    
+    
+}
+
+input {
+    width: 250px;
+    background-color: #ffffff57;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    border-radius: 99999px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: var(--font-detona-ralph);
+    user-select: none;
+}
+
+  
+
+button{ 
+    border: none;
+    padding: 10px 20px;
+    background: url(../../assets/imgs/mobile/bg-tela-dos-quadrados.png) no-repeat center;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 10px #000;
+    transition: transform 0.1s ease;
+
+    & span {
+        font-weight: 500;
+        color: #f2e5e5;
+        font-size: 1.2rem;
+        padding: 10px 0;
+        font-family: var(--font-detona-ralph);
+        user-select: none;
+    }
+
+ 
+}
+
+   
+button:active{
+    transform: translateY(2px);
+}
