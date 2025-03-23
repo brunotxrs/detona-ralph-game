@@ -47,9 +47,11 @@ function HomeScreen() {
           value={name}
           onChange={handleNameChange}
         />
-        <button onClick={handleStartClick}>
-          <span translate="no">Press Start</span>
-        </button>
+        <div className='button-box'>
+          <button className='button' onClick={handleStartClick}>
+            <span className='button-text'  translate="no">Press Start</span>
+          </button>
+        </div>
       </div>
     );
   }

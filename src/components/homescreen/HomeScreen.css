@@ -63,30 +63,36 @@ input {
     user-select: none;
 }
 
-  
+.button-box {
+    box-shadow:  5px 5px 5px #000;
 
-button{ 
-    border: none;
-    padding: 10px 20px;
-    background: url(../../assets/imgs/mobile/bg-tela-dos-quadrados.png) no-repeat center;
-    background-size: cover;
-    border-radius: 5px;
-    box-shadow: inset 0px 0px 10px #000;
-    transition: transform 0.1s ease;
-
-    & span {
-        font-weight: 500;
-        color: #f2e5e5;
-        font-size: 1.2rem;
-        padding: 10px 0;
-        font-family: var(--font-detona-ralph);
-        user-select: none;
+    .button{ 
+        border: none;
+        padding: 10px 20px;
+        background: url(../../assets/imgs/mobile/bg-tela-dos-quadrados.png) no-repeat center;
+        background-size: cover;
+        border-radius: 5px;
+        box-shadow: inset 0px 5px 10px #000;
+        transition: transform 0.1s ease;
+        outline: 2px solid #000;
+    
+        .button-text {
+            font-weight: 500;
+            color: #f2e5e5;
+            font-size: 1.2rem;
+            padding: 10px 0;
+            font-family: var(--font-detona-ralph);
+            user-select: none;
+        }
+    
+     
+    }
+    
+       
+    .button:active{
+        transform: translateY(2px);
     }
 
- 
 }
 
-   
-button:active{
-    transform: translateY(2px);
-}
+
