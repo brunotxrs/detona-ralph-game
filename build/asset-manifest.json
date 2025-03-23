@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9ed3f941.css",
+    "main.js": "/static/js/main.0c998a42.js",
+    "static/js/453.8e5b61c7.chunk.js": "/static/js/453.8e5b61c7.chunk.js",
+    "static/media/detona-ralph-quadrado.gif": "/static/media/detona-ralph-quadrado.78b6bf68839421de1825.gif",
+    "static/media/bg-tela-do-jogo-mobile.png": "/static/media/bg-tela-do-jogo-mobile.c544ff1fb13ad1686de0.png",
+    "static/media/bg-tela-inicial-mobile.png": "/static/media/bg-tela-inicial-mobile.ce3d793bc3c9362bc69c.png",
+    "static/media/bg-tela-do-painel-mobile.jpg": "/static/media/bg-tela-do-painel-mobile.893006e37a07524e6325.jpg",
+    "static/media/bg-tela-dos-quadrados.png": "/static/media/bg-tela-dos-quadrados.52bd3738d6253ec2bde7.png",
+    "static/media/the-end.png": "/static/media/the-end.b58c2632c21067a07748.png",
+    "static/media/joystix monospace.otf": "/static/media/joystix monospace.28a69e86e377d611dcaf.otf",
+    "index.html": "/index.html",
+    "main.9ed3f941.css.map": "/static/css/main.9ed3f941.css.map",
+    "main.0c998a42.js.map": "/static/js/main.0c998a42.js.map",
+    "453.8e5b61c7.chunk.js.map": "/static/js/453.8e5b61c7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ed3f941.css",
+    "static/js/main.0c998a42.js"
+  ]
+}
