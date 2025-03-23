@@ -48,6 +48,7 @@
     position: relative;
     line-height: 20px;
     font-size: 0.9rem;
+    user-select: none;
 }
 
 .paragraph::after {
@@ -68,4 +69,5 @@
 .img {
     width: 200px;
     filter: drop-shadow(0 0 10px #ffffff5f);
+    user-select: none;
 }

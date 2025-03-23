@@ -23,27 +23,30 @@
     font-weight: 600;
     color: #eceaeaee;
     text-shadow: 0 5px 2px #000;
+    user-select: none;
   
 }
 
 .clock {
     color: #03AEF8;
     filter: drop-shadow(0 5px 2px #000);
+    user-select: none;
 }
 
 .clock-n {
     color: #149ae8;
-    
+    user-select: none;
 }
 
 .heart {
     color: #ff0000;
     filter: drop-shadow(0 5px 2px #000);
-    
+    user-select: none;
 }
 
 .number-heat {
     color: #ff0000;
+    user-select: none;
 } 
 
 
@@ -64,14 +67,17 @@
     background-size: cover;
     height: 50px;
     border-bottom: 2px solid  #03aff8aa;
+    user-select: none;
 }
 
 .score {
     font-size: 1.4rem;
     color: #ffff00;
     filter: drop-shadow(0 5px 2px #000);
+    user-select: none;
 }
 
 .number-score {
     color: #ffff00;
+    user-select: none;
 }
