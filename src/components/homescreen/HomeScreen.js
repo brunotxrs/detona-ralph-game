@@ -20,7 +20,6 @@ function HomeScreen() {
         if(name.length >= 3 && name.length <= 10 ){
           setPlayerName(name);
           navigate('/gamescreen');
-          console.log('foi')
         }else if (name.length < 3) {
           
           setShowAlert('Nome deve ter no mínimo 3 caracteres.');
