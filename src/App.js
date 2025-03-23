@@ -4,17 +4,24 @@ import './App.css';
 import HomeScreen from './components/homescreen/HomeScreen';
 import GameScreen from './components/gamescreen/GameScreen'
 import { NameProvider } from './components/namecontext/NameContext';
+import Scoreboard from './components/scoreboard/Scoreboard';
+import { ScoreProvider } from './components/scorecontext/ScoreContext';
 
 function App() {
   return (
-    <NameProvider>
+    <ScoreProvider>
+      <NameProvider>
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomeScreen />} />
         <Route path="/gamescreen" element={<GameScreen />} />
+        <Route path="/scoreboard" element={<Scoreboard />} />
+        
       </Routes>
     </BrowserRouter>
     </NameProvider>
+    </ScoreProvider>
+    
   );
 }
 
