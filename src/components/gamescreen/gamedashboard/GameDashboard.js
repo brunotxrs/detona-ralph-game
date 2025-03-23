@@ -1,44 +1,81 @@
-
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 import './GameDashboard.css'
 import Dashboard from '../dashboard/Dashboard';
 
 
-function GameDashboard() {
+function GameDashboard({ onGameOver }) {
 
     const [ralphPosition, setRalphPosition] = useState(null);
     const [lives, setLives] = useState(3);
     const [score, setScore] = useState(0);
+    const [timeRemaining, setTimeRemaining] = useState(60);
+    const [finalGameScore, setFinalGameScore] = useState(0);
+
+    const scoreRef = useRef(score);
+
 
     useEffect(() => {
         const boxes = document.querySelectorAll('.box');
         const randomIndex = Math.floor(Math.random() * boxes.length);
         setRalphPosition(randomIndex);
+        
 
         const timer = setInterval(() => {
             const newRandomIndex = Math.floor(Math.random() * boxes.length);
             setRalphPosition(newRandomIndex);
-        }, 1000)
+        }, 1000);
 
-        return () => clearInterval(timer);
+        const timeCheck = setInterval(() => {
+          setTimeRemaining((prevTime) => {
+            if(prevTime <= 0) {
+              clearInterval(timer);
+              clearInterval(timeCheck);
+              console.log(scoreRef.current);
+              onGameOver('O tempo acabou!', scoreRef.current);
+
+              return 0;
+            }
+
+            return prevTime - 1;
+          });
+        }, 1000);
+
+        return () => {
+          clearInterval(timer);
+          clearInterval(timeCheck);
+        };
 
     }, []);
 
     const handleBoxClick = (index) => {
 
         if(index === ralphPosition){
-            setLives( lives +1);
-            setScore(score +1);
+            setLives((prevLives) => prevLives + 1);
+            setScore((prevScore) => {
+              scoreRef.current = prevScore + 1
+
+              return prevScore + 1;
+            });
+            setFinalGameScore(scoreRef.current);
+            
         }else {
-            setLives(lives -1);
+            setLives((prevLives) => {
+              if(prevLives <= 1){
+                setFinalGameScore(scoreRef.current);
+                onGameOver('Suas vidas acabaram!', scoreRef.current)
+
+                return 0;
+              }
+              return prevLives - 1;
+            });
         }
-    }
+    };
 
     return(
 
       <div>
         <Dashboard lives={lives} score={score} />
-          <div className='area-game'>
+          <div className='area-game' style={{display: lives > 0 && timeRemaining > 0 ? 'flex' : 'none'}}>
             <div className='container'>
               <div className={`box ${ralphPosition === 0 ? 'ralph' : ''}`}
               onClick={() => handleBoxClick(0)}></div>
@@ -64,6 +101,7 @@ function GameDashboard() {
               onClick={() => handleBoxClick(8)}></div>
             </div>
           </div>
+
       </div> 
 
     );
