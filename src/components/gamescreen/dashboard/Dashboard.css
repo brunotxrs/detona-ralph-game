@@ -81,3 +81,82 @@
     color: #ffff00;
     user-select: none;
 }
+
+@media screen and (min-width: 700px){
+
+    .game-painel {
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 0 15px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.667), rgba(0, 0, 0, .6)), 
+        url('../../../assets/imgs/mobile/bg-tela-dos-quadrados.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        gap: 20px;
+    }
+
+    
+
+    .time , .life{
+        width: 250px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        font-size: 2rem;
+        font-weight: 600;
+        color: #eceaeaee;
+        text-shadow: 0 5px 2px #000;
+        user-select: none;
+      
+    }
+
+    .clock {
+        color: #03AEF8;
+        filter: drop-shadow(0 5px 2px #000);
+        user-select: none;
+
+        
+    }
+    
+    .clock-n {
+        color: #149ae8;
+        user-select: none;
+        width: 150px;
+    }
+
+    .painel-player {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        font-size: 2rem;
+        font-weight: 600;
+        color: #eceaeaee;
+        text-shadow: 0 5px 2px #000;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.667), rgba(0, 0, 0, .6)), 
+        url('../../../assets/imgs/mobile/bg-tela-dos-quadrados.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 50px;
+        border-bottom: 2px solid  #03aff8aa;
+        user-select: none;
+    }
+
+    .score {
+        font-size: 2rem;
+        color: #ffff00;
+        filter: drop-shadow(0 5px 2px #000);
+        user-select: none;
+    }
+    
+
+    
+}

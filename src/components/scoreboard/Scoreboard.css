@@ -77,6 +77,7 @@
                     align-items: center;
                     justify-content: center;
                     gap: 5px;
+                    filter: drop-shadow(2px 5px 2px #000000ca);
                     user-select: none;
                   }
                   
@@ -203,5 +204,239 @@
 
     }
 
+}
+
+@media screen and (min-width: 700px) {
+
+  .score-container {
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    background-image: linear-gradient(#ffffff54, #ffffff18), 
+    url('../../../src/assets/imgs/desktop/bg-tela-do-painel-desktop.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    gap: 0;
+
+    .painel {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0 10px;
+        border-radius: 5px;
+        margin-top: 100px;
+
+
+        .box-painel {
+            height: 250px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            
+            gap: 0;
+            padding: 0px 10px;
+
+
+            .player {
+                width: 300px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                border-radius: 5px;
+
+                .name-player {
+                    color: transparent; 
+                    width: 100%;
+                    height: 100%;
+                    font-size: 2rem;
+                    user-select: none;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+                    justify-content: end;
+                    padding: 15px 0;
+                    background-image: linear-gradient(to bottom, #00FFFF, #FF00FF);
+                    background-clip: text;
+                    -webkit-text-stroke: 1px #00FFFF; 
+                    text-shadow:
+                      0 0 5px #00FFFF,
+                      0 0 10px #00FFFF,
+                      0 0 15px #FF00FF,
+                      0 0 20px #FF00FF;
+                  }
+
+
+                .box-player-score{
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    filter: drop-shadow(1px 3px 1px #000000ca);
+                }
+    
+                .trophy {
+                    width: 100px;
+                    height: 100%;
+                    font-size: 2rem;
+                    color: #FFD700;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 5px;
+                    filter: drop-shadow(2px 5px 2px #000000ca);
+                    user-select: none;
+                  }
+                  
+                  .trophy .box-player-score {
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    filter: drop-shadow(1px 3px 1px #000000ca);
+                    color: #FFD700;
+                    text-shadow:
+                      0 0 0px #FFD700,
+                      0 0 2px #FFD700,
+                      0 0 2px #FFFF00,  
+                      0 0 10px #FFFF00; 
+                  }
+                  
+                  .trophy svg {
+                    filter: drop-shadow(0 0 0px #FFD700)
+                            drop-shadow(0 0 1px #FFD700)
+                            drop-shadow(0 0 15px #FFFF00); 
+                  }
+
+                  .medal-bronze {
+                    width: 100px;
+                    height: 100%;
+                    font-size: 2rem;
+                    color: #C0C0C0;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 5px;
+                    filter: drop-shadow(2px 5px 2px #000000ca);
+                    user-select: none;
+                  }
+                  
+                  .medal-bronze .box-player-score {
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    color: #C0C0C0;
+                    text-shadow:
+                      0 0 0px #C0C0C0,
+                      0 0 2px #C0C0C0,
+                      0 0 2px #D3D3D3,
+                      0 0 10px #D3D3D3;
+                  }
+                  
+                  .medal-bronze svg {
+                    filter: drop-shadow(0 0 0px #C0C0C0)
+                            drop-shadow(0 0 1px #C0C0C0)
+                            drop-shadow(0 0 10px #D3D3D3);
+                  }
+    
+                  .medal-prata {
+                    width: 100px;
+                    height: 100%;
+                    font-size: 2rem;
+                    color: #CD7F32;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 5px;
+                    filter: drop-shadow(2px 5px 2px #000000ca);
+                    user-select: none;
+                  }
+                  
+                  .medal-prata .box-player-score {
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    color: #CD7F32;
+                    text-shadow:
+                      0 0 0px #CD7F32,
+                      0 0 2px #CD7F32,
+                      0 0 2px #DEAA87, 
+                      0 0 10px #DEAA87;
+                  }
+                  
+                  .medal-prata svg {
+                    filter: drop-shadow(0 0 0px #CD7F32)
+                            drop-shadow(0 0 1px #CD7F32)
+                            drop-shadow(0 0 15px #DEAA87);
+                  }
+    
+                
+            }
+
+        }
+
+
+
+        
+
+    }
+
+    .container-btn {
+      width: 100%;
+      height: 100px;
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+
+
+      .btn {
+        box-shadow:  5px 5px 5px #000;
+        height: 50%;
+        width: 250px;
+        
+        .btn-box {
+          width: 100%;
+          border: none;
+          padding: 10px 20px;
+          background: url(../../assets/imgs/mobile/bg-tela-dos-quadrados.png) no-repeat center;
+          background-size: cover;
+          border-radius: 5px;
+          box-shadow: inset 0px 0px 10px #000;
+          transition: transform 0.1s ease;
+          outline: 2px solid #000;
+
+
+          .btn-text {
+            font-weight: 500;
+            color: #f2e5e5;
+            font-size: 2rem;
+            padding: 10px;
+            font-family: var(--font-detona-ralph);
+            user-select: none;
+          }
+        }
+
+        .btn-box:active{
+            transform: translateY(2px);
+        }
+
+    }
+
+    }
+
+    
+
+}
+  
 }
 

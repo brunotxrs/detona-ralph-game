@@ -32,3 +32,33 @@
     background-size: cover;
     box-shadow: 0 0 10px #000;
 }
+
+
+@media screen and (min-width: 700px) {
+
+    .container {
+        height: 133.33px;
+        width: 600px;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+    
+    .box {
+        width: 200px;
+        height: 133.33px;
+        background: url(../../../assets/imgs/mobile/bg-tela-dos-quadrados.png) no-repeat center;
+        background-size: cover;
+        box-shadow: 0 0 10px #000;
+    }
+
+    .ralph {
+        width: 200px;
+        height: 133.33px;
+        background: url(../../../assets/imgs/desktop/detona-ralph-quadrado-desktop.gif) no-repeat center;
+        background-size: cover;
+        box-shadow: 0 0 10px #000;
+    }
+
+    
+}
