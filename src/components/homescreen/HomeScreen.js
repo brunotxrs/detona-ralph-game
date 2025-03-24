@@ -1,8 +1,7 @@
+import './HomeScreen.css';
 import React, { useContext, useState} from 'react';
 import { useNavigate } from 'react-router-dom';
 import { NameContext } from '../namecontext/NameContext';
-
-import './HomeScreen.css';
 
 
 function HomeScreen() {
@@ -38,9 +37,13 @@ function HomeScreen() {
   
     return (
       <div className="homescreen">
-        <div className='alert' style={{display: showAlert ? 'block' : 'none'}}>
-            <p>{showAlert}</p>
+        
+        <div className='box-alert'>
+          <div className='alert' style={{display: showAlert ? 'block' : 'none'}}>
+              <p>{showAlert}</p>
+          </div>
         </div>
+
         <input
           type="text"
           placeholder="name"
