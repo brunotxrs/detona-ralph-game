@@ -59,10 +59,12 @@ function Scoreboard() {
         </div>
       </div>
 
-      <div className='btn'>
-        <button className='btn-box' onClick={() => navigate('/homescreen')}>
-          <span className='btn-text'>restart</span>
-        </button>
+      <div className='container-btn'>
+        <div className='btn'>
+          <button className='btn-box' onClick={() => navigate('/homescreen')}>
+            <span className='btn-text'>restart</span>
+          </button>
+        </div>
       </div>
     </div>
   );
