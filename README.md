@@ -1,44 +1,44 @@
-<h1><strong>Detona Ralph - Reconstrução em React<br> ⚠️(Em Desenvolvimento)⚠️</strong></h1>
+<h1><strong>Detona Ralph React ⚛️</strong></h1>
 
-Este projeto representa uma reconstrução completa do zero do jogo Detona Ralph, utilizando a biblioteca **React**. A versão anterior, desenvolvida em **HTML**, **CSS** e **JavaScript** puro, foi arquivada na branch ``first-version``. Este novo projeto não reutilizará nenhum código da versão anterior e introduzirá novas funcionalidades e melhorias.
+Um projeto React divertido e interativo, inspirado no clássico jogo "Detona Ralph"!
 
-## **📍Descrição**
-O objetivo deste projeto é recriar o jogo Detona Ralph com uma arquitetura moderna e escalável, utilizando React. O jogo manterá a mecânica principal de acertar o personagem Ralph, mas será expandido com novas funcionalidades, melhorias de desempenho e uma interface de usuário mais interativa.
+## 📍Sobre o Projeto
 
+Este projeto é uma recriação do desafio "Detona Ralph", originalmente desenvolvido em **HTML**, **CSS** e **JavaScript** puro como parte do curso **Ri Happy - Front-end do Zero da DIO**.  A versão original, mantida na branch ``first-version``, serve como um registro do meu progresso inicial.
 
-## ️⚛️**Por Que Reconstruir em React?** ️
-Como desenvolvedor, estou em uma jornada contínua de aprendizado e aprimoramento. Reconstruir este projeto com React é uma excelente maneira de:
+Com o objetivo de aprimorar minhas habilidades em React, decidi reconstruir o jogo usando esta poderosa biblioteca. ⚛️ O resultado é um aplicativo responsivo, otimizado para dispositivos móveis (mobile-first), com planos de expansão para desktops e telas maiores. ️
 
-* Consolidar meus conhecimentos em React.
-* Explorar novas funcionalidades e otimizações.
-* Criar uma aplicação mais modular e escalável.
-
-## 🎁**O Que Esperar? (em Desenvolvimento)**
-- **Uma tela inicial incrível** com um input para você digitar seu nome e um botão "Press Start" para começar a diversão! **(Em Desenvolvimento)** ️
-
-- **Um jogo Detona Ralph turbinado** com gráficos pixelados e animações que vão te transportar direto para os arcades! **(Em Desenvolvimento)**
-
-- **Um painel de classificação alucinante** para você comparar sua pontuação com os jogadores fictícios e mostrar quem é o rei do arcade! **(Em Desenvolvimento)**
-
-- **Uma dinâmica de vidas emocionante** onde você ganha vidas extras ao acertar o Ralph e perde vidas ao errar !**(Em Desenvolvimento)**
-
-- **Uma experiência totalmente responsiva** que se adapta a qualquer tela, seja no seu celular ou no seu computador!  **(Em Desenvolvimento)**
+## 🧩Funcionalidades ️
+* T**ela Inicial:** Insira seu nome de jogador e prepare-se para a ação!
+* **Jogo Interativo:** Acerte o Detona Ralph nos quadrados para ganhar pontos e vidas!
+* **Painel de Jogo:** Acompanhe seu tempo, vidas e pontuação em tempo real. ⏱️❤️⭐
+* **Tela de Pontuação:** Veja sua classificação e compare seus resultados com outros jogadores!
+* **Responsividade:** Design adaptado para dispositivos móveis, com planos para desktop. ➡️️
 
 ## 🛠️Tecnologias Usadas
-<div>
+<div align='center'>
 <a href="https://reactjs.org/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/react-original-wordmark.svg" alt="React" height="40" /></a> 
-<a href="https://www.javascript.com/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/javascript-original.svg" alt="JavaScript" height="40" /></a>
 <a href="https://www.w3schools.com/css/" target="_blank"><img style="margin: 10px" src="https://profilinator.rishav.dev/skills-assets/css3-original-wordmark.svg" alt="CSS3" height="50" /></a>
 </div>
 
+* **React:** A biblioteca JavaScript para construir interfaces de usuário.
+* **React Router DOM:** Para navegação entre as telas do jogo. ️
+* **Context API:** Para gerenciamento de estado global (nome do jogador e pontuação).
+* **Font Awesome:** Para os ícones incríveis!
+* **CSS:** Para os estilos personalizados e responsivos.
+
+## 🕹️Como Jogar ️
+* 1.Acesse o jogo Detona Ralph Game através deste link: [Detona Ralph Game](https://detona-ralph-game-gamma.vercel.app/)
+* 2.Divirta-se!
+
 ## 🫱🏻‍🫲🏻Contribuição
-Sinta-se à vontade para contribuir com este projeto! Se você tiver alguma ideia, sugestão ou encontrar algum bug, abra uma issue ou envie um pull request. Juntos, podemos tornar este jogo ainda mais épico!
+Sinta-se à vontade para contribuir com este projeto! Abra uma issue para discutir novas funcionalidades ou envie um pull request com suas melhorias.
+
+## Agradecimentos
+Agradeço à <a href="https://web.dio.me/">DIO</a> por fornecer o desafio original e por me inspirar a aprimorar minhas habilidades em React. Um agradecimento especial à comunidade <a href="https://pt-br.legacy.reactjs.org/">React</a> por sua incrível documentação e suporte!
 
 ## 📜Licença
 Este projeto está sob a [licença MIT](./License).
-
-## 🎮Vamos Detonar Tudo (Em Desenvolvimento)! ️
-Prepare-se para uma aventura pixelada inesquecível! Acompanhe o progresso deste projeto enquanto reconstruímos o clássico Detona Ralph com React! **(Em Desenvolvimento)**
 
 ## ✨ Developer
 👨‍💻 Este projeto foi desenvolvido por <strong>Bruno Teixeira</strong> como parte do meu portfólio de desenvolvimento Front-End. Sinta-se à vontade para entrar em contato ou contribuir com o projeto!
