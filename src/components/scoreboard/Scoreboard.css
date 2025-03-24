@@ -37,23 +37,28 @@
                 flex-direction: row;
                 justify-content: space-between;
                 align-items: center;
-    
-    
+
                 .name-player {
-                    color: #ffff00;
+                    color: transparent; 
                     width: 135px;
                     height: 100%;
                     font-size: 1.6rem;
-                    text-shadow: 2px 5px 2px #000000ca;
                     user-select: none;
                     display: flex;
                     flex-direction: column;
                     flex-wrap: wrap;
                     justify-content: end;
                     padding: 15px 0;
-                    
-                    
-                }
+                    background-image: linear-gradient(to bottom, #00FFFF, #FF00FF);
+                    background-clip: text;
+                    -webkit-text-stroke: 1px #00FFFF; 
+                    text-shadow:
+                      0 0 5px #00FFFF,
+                      0 0 10px #00FFFF,
+                      0 0 15px #FF00FF,
+                      0 0 20px #FF00FF;
+                  }
+
 
                 .box-player-score{
                     height: 100%;
@@ -72,12 +77,29 @@
                     align-items: center;
                     justify-content: center;
                     gap: 5px;
-                    filter: drop-shadow(2px 5px 2px #000000ca);
                     user-select: none;
+                  }
+                  
+                  .trophy .box-player-score {
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    filter: drop-shadow(1px 3px 1px #000000ca);
+                    color: #FFD700;
+                    text-shadow:
+                      0 0 0px #FFD700,
+                      0 0 2px #FFD700,
+                      0 0 2px #FFFF00,  
+                      0 0 10px #FFFF00; 
+                  }
+                  
+                  .trophy svg {
+                    filter: drop-shadow(0 0 0px #FFD700)
+                            drop-shadow(0 0 1px #FFD700)
+                            drop-shadow(0 0 15px #FFFF00); 
+                  }
 
-                }
-    
-                .medal-bronze {
+                  .medal-bronze {
                     width: 100px;
                     height: 100%;
                     font-size: 1.4rem;
@@ -89,9 +111,27 @@
                     gap: 5px;
                     filter: drop-shadow(2px 5px 2px #000000ca);
                     user-select: none;
-                }
+                  }
+                  
+                  .medal-bronze .box-player-score {
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    color: #C0C0C0;
+                    text-shadow:
+                      0 0 0px #C0C0C0,
+                      0 0 2px #C0C0C0,
+                      0 0 2px #D3D3D3,
+                      0 0 10px #D3D3D3;
+                  }
+                  
+                  .medal-bronze svg {
+                    filter: drop-shadow(0 0 0px #C0C0C0)
+                            drop-shadow(0 0 1px #C0C0C0)
+                            drop-shadow(0 0 10px #D3D3D3);
+                  }
     
-                .medal-prata{
+                  .medal-prata {
                     width: 100px;
                     height: 100%;
                     font-size: 1.4rem;
@@ -103,7 +143,25 @@
                     gap: 5px;
                     filter: drop-shadow(2px 5px 2px #000000ca);
                     user-select: none;
-                }
+                  }
+                  
+                  .medal-prata .box-player-score {
+                    height: 100%;
+                    display: flex;
+                    align-items: center;
+                    color: #CD7F32;
+                    text-shadow:
+                      0 0 0px #CD7F32,
+                      0 0 2px #CD7F32,
+                      0 0 2px #DEAA87, 
+                      0 0 10px #DEAA87;
+                  }
+                  
+                  .medal-prata svg {
+                    filter: drop-shadow(0 0 0px #CD7F32)
+                            drop-shadow(0 0 1px #CD7F32)
+                            drop-shadow(0 0 15px #DEAA87);
+                  }
     
                 
             }
