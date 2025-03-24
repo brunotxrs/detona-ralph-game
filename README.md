@@ -31,6 +31,19 @@ Com o objetivo de aprimorar minhas habilidades em React, decidi reconstruir o jo
 * 1.Acesse o jogo Detona Ralph Game através deste link: [Detona Ralph Game](https://detona-ralph-game-gamma.vercel.app/)
 * 2.Divirta-se!
 
+## 📷 Preview
+Aqui estão algumas capturas de tela do projeto em diferentes dispositivos:
+
+<p align="center"><strong>Mobile</strong></p>
+<p align="center">
+  <img alt="Projeto Detona Ralph Game versão mobile" src="./src/assets/imgs/readme-mobile.gif" width="20%">
+</p>
+
+<p align="center"><strong>Desktop</strong></p>
+<p align="center">
+  <img alt="Projeto Detona Ralph Game versão desktop" src="./src/assets/imgs/readme-desktop.gif" width="50%">
+</p>
+
 ## 🫱🏻‍🫲🏻Contribuição
 Sinta-se à vontade para contribuir com este projeto! Abra uma issue para discutir novas funcionalidades ou envie um pull request com suas melhorias.
 
