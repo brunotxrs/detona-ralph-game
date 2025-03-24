@@ -15,8 +15,8 @@ function Scoreboard() {
 
   const players = useMemo(() => {
     return [
-      { name: 'Anya Volkov', score: '100' },
-      { name: 'Jax Meridian', score: '50' },
+      { name: 'Anya', score: '100' },
+      { name: 'Jax', score: '50' },
       { name: playerName, score: finalScore },
     ].sort((a, b) => b.score - a.score);
   },[ playerName, finalScore]);
@@ -32,20 +32,23 @@ function Scoreboard() {
           return (
             <div className='player' key={player.name}>
 
-            <p className='name-player'>{player.name}</p>
+            <p className='name-player'>{player.name}→</p>
             {index === 0 && (
-              <span className='trophy'><FontAwesomeIcon icon={faTrophy} />
-                <span>{player.score}</span>
+              <span className='trophy'>
+                <span className='box-player-score'>{player.score}</span>
+                <FontAwesomeIcon icon={faTrophy} />
               </span>
             )}
             {index === 1 && (
-              <span className='medal-bronze'><FontAwesomeIcon icon={faMedal} />
-                <span>{player.score}</span>
+              <span className='medal-bronze'>
+                <span className='box-player-score'>{player.score}</span>
+                <FontAwesomeIcon icon={faMedal} />
               </span>
             )}
             {index === 2 && (
-              <span className='medal-prata'><FontAwesomeIcon icon={faMedal} />
-                <span>{player.score}</span>
+              <span className='medal-prata'>
+                <span className='box-player-score'>{player.score}</span>
+                <FontAwesomeIcon icon={faMedal} />
               </span>
             )}
             
