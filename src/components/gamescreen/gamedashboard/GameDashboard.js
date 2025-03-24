@@ -1,6 +1,7 @@
 import { useEffect, useState, useRef } from 'react';
 import './GameDashboard.css'
 import Dashboard from '../dashboard/Dashboard';
+import ralphHitSound from '../../../assets/audio/ralph_hit.mp3'
 
 
 function GameDashboard({ onGameOver }) {
@@ -12,6 +13,7 @@ function GameDashboard({ onGameOver }) {
     const [finalGameScore, setFinalGameScore] = useState(0);
 
     const scoreRef = useRef(score);
+    const hitAudioRef =  useRef(new Audio(ralphHitSound));
 
 
     useEffect(() => {
@@ -57,6 +59,11 @@ function GameDashboard({ onGameOver }) {
               return prevScore + 1;
             });
             setFinalGameScore(scoreRef.current);
+
+            hitAudioRef.current.currentTime = 0;
+            hitAudioRef.current.play().catch(error => {
+              console.error("Erro ao reproduzir áudio de acerto:", error);
+            })
             
         }else {
             setLives((prevLives) => {

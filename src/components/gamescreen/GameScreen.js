@@ -1,9 +1,12 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './GameScreen.css';
 import GameDashboard from './gamedashboard/GameDashboard';
 import theEnd from '../../assets/imgs/mobile/the-end.png'
 import { ScoreContext, ScoreProvider } from '../../components/scorecontext/ScoreContext'
+
+import gameMusic from '../../assets/audio/game_background_music.mp3'
+
 
 function GameScreen(){
 
@@ -11,11 +14,37 @@ function GameScreen(){
   const [gameOver, setGameOver] = useState(false);
   const [message, setMessage] = useState('');
   const { setFinalScore } = useContext(ScoreContext);
+  const gameAudioRef = useRef(new Audio(gameMusic));
+
+  useEffect(() => {
+    const gameAudio = gameAudioRef.current;
+
+    const playAudio = () => {
+      gameAudio.loop = true;
+      gameAudio.play().catch(error => {
+        console.error("Erro ao reproduzir áudio do jogo:", error);
+      });
+    };
+
+    const pauseAudio = () => {
+      gameAudio.pause();
+      gameAudio.currentTime = 0;
+
+    };
+
+    playAudio();
+
+    return () => {
+      pauseAudio()
+    };
+
+  }, []);
 
   const handleGameOver = (message, score) => {
     setGameOver(true);
     setMessage(message);
     setFinalScore(score);
+
 
     setTimeout(() => {
       navigate('/scoreboard');
