@@ -17,7 +17,7 @@ function HomeScreen() {
   
     const handleStartClick = () => {
       if (name.trim() !== '') {
-        if(name.length >= 3 && name.length <= 10 ){
+        if(name.length >= 3 && name.length <= 5 ){
           setPlayerName(name);
           navigate('/gamescreen');
         }else if (name.length < 3) {
@@ -26,7 +26,7 @@ function HomeScreen() {
       setTimeout(() => setShowAlert(''), 3000);
           
         }else {
-          setShowAlert('Nome deve ter no máximo 10 caracteres.');
+          setShowAlert('Nome deve ter no máximo 5 caracteres.');
           setTimeout(() => setShowAlert(''), 3000); 
         }
 
